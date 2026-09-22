@@ -7,16 +7,15 @@
 # Convention: most changes to `markdown_extensions`, `plugins`, and theme `features` need a comment explaining what the option does.
 # ---------------------------------------------------------------------------
 
-site_name: Project workspace
-# Replace `thibaudcolas/research-workspace-template` with the real GitHub slug.
-repo_url: https://github.com/thibaudcolas/research-workspace-template
-site_url: https://thibaudcolas.github.io/research-workspace-template/
+site_name: Product research workspace for Wagtail
+repo_url: https://github.com/wagtail/product-research-workspace
+site_url: https://wagtail.github.io/product-research-workspace/
 docs_dir: docs
 # "Edit on GitHub" links point to the source Markdown on the main branch.
 edit_uri: edit/main/docs
 
-site_description: A shared workspace for project documentation.
-repo_name: REPO
+site_description: Product research for Wagtail.
+repo_name: wagtail/product-research-workspace
 # Avoid clashes with other docs servers running on the default 8000 port.
 dev_addr: localhost:8001
 
@@ -25,7 +24,7 @@ theme:
   # Disable Google Fonts downloads – fonts are bundled locally so the site
   # works without external requests.
   font: false
-  logo: theme/favicon.png
+  logo: theme/favicon.svg
   favicon: theme/favicon.png
   palette:
     # Light and dark palettes, each tied to the system preference so the
@@ -164,8 +163,8 @@ plugins:
           - contributing/*.md
         Knowledge base:
           - knowledge-base/*.md
-        Project A:
-          - project-a/*.md
+        Product research:
+          - product-research/*.md
   # Page tagging: tags declared in front matter (e.g. `tags: [draft, policy]`)
   # are collected into a tag index page. Add or customize in `mkdocs-features.md`. Tag listings render at
   # `/tags/` in the built site.
@@ -193,5 +192,5 @@ nav:
       - Abbreviations: contributing/abbreviations.md
   - Knowledge base:
       - knowledge-base/README.md
-  - Project A:
-      - project-a/README.md
+  - Product research:
+      - product-research/README.md

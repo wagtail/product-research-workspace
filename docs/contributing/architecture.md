@@ -8,11 +8,11 @@ We organize information across a small number of layers:
 
 1. [Contributing](README.md): guidance on how to work within this workspace.
 2. [Knowledge base](../knowledge-base/README.md): general-purpose information relevant for a wide range of tasks.
-3. Projects, like [Project A](../project-a/README.md): information about a specific project.
+3. [Product research](../product-research/README.md): research about specific Wagtail product areas.
 
 Each section folder uses a `README.md` as its landing page, so it also renders when browsing the folder on GitHub.
 
-<!-- Update the layers above to match your project, and keep them in sync with `docs/README.md` and `docs/index.md`. -->
+<!-- Update the layers above to match your project, and keep them in sync with `docs/index.md`. -->
 
 ## Documentation build
 
@@ -28,7 +28,7 @@ The Markdown-facing syntax for these features is documented in the [style guide]
 
 ## Continuous integration
 
-[`.github/workflows/ci.yml`](https://github.com/thibaudcolas/research-workspace-template/blob/main/.github/workflows/ci.yml) runs on every push to `main` and on pull requests:
+[`.github/workflows/ci.yml`](https://github.com/wagtail/product-research-workspace/blob/main/.github/workflows/ci.yml) runs on every push to `main` and on pull requests:
 
 - Python linting and formatting checks (`ruff`), type checking (`mypy`, `ty`).
 - Non-Python formatting checks (`prettier`).

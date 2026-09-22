@@ -1,7 +1,7 @@
 [project]
-name = "project-workspace"
-version = "0.0.0"
-description = "A shared workspace for project documentation."
+name = "product-research-workspace"
+version = "0.1.0"
+description = "Product research workspace for Wagtail."
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.14"

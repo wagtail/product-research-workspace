@@ -1,8 +1,4 @@
-# Research workspace template
-
-A reusable starting point workspace for research and documentation projects: site builder, link checking, linting and formatting, CI.
-
-This is a template, with placeholder content in a few places like `docs/`. Replace it with real content when using the template.
+# Product research workspace for Wagtail
 
 ## What's included
 
@@ -41,16 +37,6 @@ just lint      # ruff + mypy + ty + prettier checks
 just format    # Auto-format
 just check-links  # Link check (requires lychee)
 ```
-
-## Customization checklist
-
-When starting a new project from this template:
-
-1. Rename the project in `pyproject.toml`, `package.json`, and `README.md`.
-2. Set `repo_url`, `site_url`, `repo_name` in `mkdocs.yml` (search for `thibaudcolas/research-workspace-template` placeholders).
-3. Replace `docs/` placeholder content with real content, and update `nav` plus the `llmstxt` `sections` in `mkdocs.yml` to match.
-4. Update `site_name`, `site_description`, logos, and favicon in `docs/theme/`.
-5. Enable GitHub Pages from GitHub Actions in the repository settings (the workflow deploys on push to `main`).
 
 ## License
 
