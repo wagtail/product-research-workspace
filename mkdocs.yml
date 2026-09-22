@@ -24,7 +24,7 @@ theme:
   # Disable Google Fonts downloads – fonts are bundled locally so the site
   # works without external requests.
   font: false
-  logo: theme/favicon.svg
+  logo: theme/favicon.png
   favicon: theme/favicon.png
   palette:
     # Light and dark palettes, each tied to the system preference so the
