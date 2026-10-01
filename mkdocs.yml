@@ -165,6 +165,7 @@ plugins:
           - knowledge-base/*.md
         Product research:
           - product-research/*.md
+          - product-research/agent-readiness/*.md
   # Page tagging: tags declared in front matter (e.g. `tags: [draft, policy]`)
   # are collected into a tag index page. Add or customize in `mkdocs-features.md`. Tag listings render at
   # `/tags/` in the built site.
@@ -194,3 +195,8 @@ nav:
       - knowledge-base/README.md
   - Product research:
       - product-research/README.md
+      - Agent readiness:
+          - product-research/agent-readiness/README.md
+          - The checkers: product-research/agent-readiness/checkers.md
+          - Findings: product-research/agent-readiness/findings.md
+          - Techniques and evidence: product-research/agent-readiness/techniques.md
